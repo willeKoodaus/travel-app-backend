@@ -40,6 +40,7 @@ interface Message {
         const server = new ApolloServer<MyContext>({
             typeDefs,
             resolvers,
+            introspection: true,
             plugins: [
                 process.env.ENVIRONMENT === 'production'
                     ? ApolloServerPluginLandingPageProductionDefault({
