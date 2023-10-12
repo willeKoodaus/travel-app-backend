@@ -1,0 +1,29 @@
+scalar DateTime
+
+type Activity {
+  id: ID!
+  name: String!
+  date: DateTime!
+  location: String!
+  description: String!
+  trip: Trip!
+}
+
+input ActivityInput {
+  name: String!
+  date: DateTime!
+  location: String!
+  description: String!
+  trip: ID!
+}
+
+type Query {
+  activityById(id: ID!): Activity
+  activities: [Activity]
+  }
+
+type Mutation {
+  createActivity(input: ActivityInput!): Activity
+  updateActivity(id: ID!, input: ActivityInput): Activity
+  deleteActivity(id: ID!): Activity
+  }

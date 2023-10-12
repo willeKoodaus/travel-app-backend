@@ -1,0 +1,33 @@
+scalar DateTime
+
+type Flight {
+  id: ID!
+  airline: String!
+  flightNumber: String!
+  departure: DateTime!
+  arrival: DateTime!
+  departureAirport: String!
+  arrivalAirport: String!
+  trip: Trip!
+}
+
+input FlightInput {
+  airline: String!
+  flightNumber: String!
+  departure: DateTime!
+  arrival: DateTime!
+  departureAirport: String!
+  arrivalAirport: String!
+  trip: ID!
+}
+
+type Query {
+  flightById(id: ID!): Flight
+  flights: [Flight]
+}
+
+type Mutation {
+  createFlight(input: FlightInput!): Flight
+  updateFlight(id: ID!, input: FlightInput): Flight
+  deleteFlight(id: ID!): Flight
+  }
