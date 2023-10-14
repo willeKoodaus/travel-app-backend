@@ -1,4 +1,4 @@
-# TravelApp - Backend
+# TravelApp -Backend
 
 ## Idea behind the app
 TravelApp is a travel planning application where users can register, log in, and plan their trips with details like flights, accommodations, activities, and packing lists. It helps to keep all the trip details in one place, so you do not need to check everything from multiple different applications. Application consists of frontend, backend and authentication server.
@@ -14,6 +14,7 @@ Application can be accessed online at:
 App is meant for individual use so you can test it by yourself. Currently there is no possibility to share trip details with others. Here's how to use the app:
 
 1. First you will arrive to the Login page. If you have not used the app before, click "Sign up" link below the login form.
+   
 ![image](https://github.com/willeKoodaus/travel-app-backend/assets/94905760/59dda697-4f5e-442b-a0dc-aa4d1dfe5445)
 
 2. Enter user name (it can include letters, numbers and special characters), your email address and password.
@@ -23,9 +24,11 @@ App is meant for individual use so you can test it by yourself. Currently there 
 4. Next you will come to "My trips" page. Click "Add trip" to add a trip and give destination and travel dates. Finally click "Create trip".
   
 5. Now you should see the trip you just added on "My trips" page. By clicking anywhere in the trip container you can go to the page of the individual trip. You can also edit the destination or dates if you wish by clickin "Edit".
+
 ![image](https://github.com/willeKoodaus/travel-app-backend/assets/94905760/11b6d3b2-1772-4bae-85ae-54ee217dc730)
 
 6. Once you have clicked on individual trip, you will be directed to the page where you will see more details of that specific trip.
+
 ![image](https://github.com/willeKoodaus/travel-app-backend/assets/94905760/7ea41f41-034a-4644-9abb-f3dd500ce612)
 
 Features of individual trip page:
