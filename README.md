@@ -1,4 +1,4 @@
-# TravelApp -Backend
+# TravelApp - Backend
 
 ## Idea behind the app
 TravelApp is a travel planning application where users can register, log in, and plan their trips with details like flights, accommodations, activities, and packing lists. It helps to keep all the trip details in one place, so you do not need to check everything from multiple different applications. Application consists of frontend, backend and authentication server.
